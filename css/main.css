@@ -1,0 +1,358 @@
+body {
+  background: #132f47;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.container1,
+.content {
+  margin: auto;
+}
+
+.container1 {
+	width: 94.02985075%;
+	max-width: 1260px;
+	padding: 0 2.25em 4em;
+}
+
+.cube-container {
+	max-width: 200px;
+	text-align: center;
+	margin: 0 auto 4.5em;
+}
+
+/* Social Media Icons*/
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+/*Social Media Icons*/
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+._12 {
+    font-size: 1.2em;
+}
+._14 {
+    font-size: 1.4em;
+}
+ul {
+    padding:0;
+    list-style: none;
+}
+.footer-social-icons {
+    width: 350px;
+    display:block;
+    margin: 0 auto;
+}
+.social-icon {
+    color: #fff;    
+}
+ul.social-icons {
+    margin-top: 10px;
+}
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: 100px;
+}
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+}
+.fa-facebook {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+    border: solid white 1px;
+    margin-top: 1px;
+}
+.fa-facebook:hover {
+    background-color: #3d5b99;
+}
+.fa-twitter {
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+    border: solid white 1px;
+    margin-top: 1px;
+}
+.fa-twitter:hover {
+    background-color: #00aced;
+}
+.fa-rss {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+    border: solid white 1px;
+    margin-top: 1px;
+}
+.fa-rss:hover {
+    background-color: #eb8231;
+}
+.fa-youtube {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+    border: solid white 1px;
+    margin-top: 1px;
+}
+.fa-youtube:hover {
+    background-color: #e64a41;
+}
+.fa-linkedin {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+    border: solid white 1px;
+    margin-top: 1px;
+}
+.fa-linkedin:hover {
+    background-color: #0073a4;
+}
+.fa-google-plus {
+    padding:10px 9px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+    border: solid white 1px;
+    margin-top: 1px;
+}
+.fa-google-plus:hover {
+    background-color: #e25714;
+}
+/*/Social Media Icons*/
+
+/*Location Image*/
+.location {
+  width: 475px;
+  height: 356.25px;
+}
+/*/Location Image*/
+
+/*Sponor Images*/
+.sponsors {
+  width: 165px;
+  height:165px;
+  border: solid black 2px;
+  margin: 3px;
+}
+/*/Sponor Images*/
+
+/*/Form*/
+.film-label {
+  margin-bottom: 20px;
+}
+/*/Form*/
+
+/*Free Admission Image*/
+.free-img {
+  width: 450px;
+  height: 450px;
+}
+/*/Free Admission Image*/
+
+/*Schedule*/
+.schedule {
+  width: 500px;
+}
+.header-schedule {
+  margin-left: 40px;
+}
+.small-schedule{
+  margin-right: 160px;
+}
+/*/Schedule*/
+
+/*Anchor Tags*/
+.anchor {
+  display: block;
+  height: 65px; /*same height as header*/
+  margin-top: -65px; /*same height as header*/
+  visibility: hidden;
+}
+
+.anchor1 {
+  display: block;
+  height: 163px; /*same height as header*/
+  margin-top: -163px; /*same height as header*/
+  visibility: hidden;
+}
+
+.anchor2 {
+  display: block;
+  height: 60px; /*same height as header*/
+  margin-top: -60px; /*same height as header*/
+  visibility: hidden;
+}
+/*/Anchor Tags*/
+
+
+/*Media Queries*/
+
+/*Header Image*/
+@media (max-width: px) {
+  .park {
+    margin-top: 50px;
+  }
+}
+/*/Header Image*/
+  
+/*Location/Sponsors Image*/
+@media (max-width: 576px) {
+  .location {
+    width: 425px;
+    height: 318.75px;
+  }
+  .sponsors {
+    width: 133px;
+    height:133px;
+  }
+}
+
+@media (max-width: 450px) {
+  .location {
+    width: 350px;
+    height: 262.5px;
+  }
+  .sponsors {
+    width: 100px;
+    height: 100px;
+  }
+}
+/*/Location/Sponsors Image*/
+
+
+@media (max-width: 1425px) {
+  .copy {
+    margin-top: 27px;
+  }
+}
+  @media (max-width: 1000px){
+  .copy {
+    margin-top: 0px;
+  }
+}
+
+/*Free Admission Image*/
+@media (max-width: 576px) {
+  .free-img {
+    width: 425px;
+    height: 425px;
+  }
+}
+
+@media (max-width: 450px) {
+  .free-img {
+    width: 350px;
+    height: 350px;
+  }
+}
+/*/Free Admission Image*/
+
+/*Schedule*/
+@media (max-width: 1200px) {
+  .schedule1 {
+    margin: auto;
+  }
+  .header-schedule {
+    margin-left: 0px;
+  }
+  .small-schedule {
+    margin-right: 197px;
+  }
+}
+
+@media (max-width: 576px) {
+  .schedule {
+    width: 420px;
+  }
+  .small-schedule {
+    margin-right: 120px;
+  }
+}
+
+@media (max-width: 450px) {
+  .schedule {
+    width: 350px;
+  }
+   .small-schedule {
+    margin-right: 30px;
+    display: flex;
+  }
+}
+
+@media (max-width: 350px) {
+   .small-schedule {
+    opacity: 0;
+  }
+}
+/*/Schedule*/
+
+/*Youtube Video*/
+  .youtube {
+    width: 500px;
+    height: 280px;
+    margin-bottom: 25px;
+  }
+
+@media (max-width: 1200px) {
+  .youtube {
+    width: 408px;
+    height: 230px;
+    margin-bottom: 12px;
+  }
+  .titanic-youtube {
+    display: flex;
+    justify-content: center;
+  }
+}
+/*/Youtube Video*/
+
+/*Bottom Footer*/
+@media (min-width: 1425px) {
+  .copy {
+    margin-top: 43px;
+  } 
+  .footer-list {
+    margin-top: 35px;
+  }
+  .footer-icon {
+    margin-top: 17.5px;
+  }
+}
+/*/Bottom Footer*/
