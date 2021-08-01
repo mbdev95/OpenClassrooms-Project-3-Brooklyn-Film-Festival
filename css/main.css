@@ -37,7 +37,7 @@ body {
   opacity: 0.7;
 }
 
-/*Social Media Icons*/
+/* Font Imports */
 @import url(https://fonts.googleapis.com/css?family=Lato);
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 
@@ -162,7 +162,6 @@ ul.social-icons {
   width: 475px;
   height: 356.25px;
 }
-/*/Location Image*/
 
 /*Sponor Images*/
 .sponsors {
@@ -171,20 +170,17 @@ ul.social-icons {
   border: solid black 2px;
   margin: 3px;
 }
-/*/Sponor Images*/
 
 /*/Form*/
 .film-label {
   margin-bottom: 20px;
 }
-/*/Form*/
 
 /*Free Admission Image*/
 .free-img {
   width: 450px;
   height: 450px;
 }
-/*/Free Admission Image*/
 
 /*Schedule*/
 .schedule {
@@ -196,7 +192,6 @@ ul.social-icons {
 .small-schedule{
   margin-right: 160px;
 }
-/*/Schedule*/
 
 /*Anchor Tags*/
 .anchor {
@@ -219,8 +214,6 @@ ul.social-icons {
   margin-top: -60px; /*same height as header*/
   visibility: hidden;
 }
-/*/Anchor Tags*/
-
 
 /*Media Queries*/
 
@@ -230,7 +223,6 @@ ul.social-icons {
     margin-top: 50px;
   }
 }
-/*/Header Image*/
   
 /*Location/Sponsors Image*/
 @media (max-width: 576px) {
@@ -254,8 +246,6 @@ ul.social-icons {
     height: 100px;
   }
 }
-/*/Location/Sponsors Image*/
-
 
 @media (max-width: 1425px) {
   .copy {
@@ -282,7 +272,6 @@ ul.social-icons {
     height: 350px;
   }
 }
-/*/Free Admission Image*/
 
 /*Schedule*/
 @media (max-width: 1200px) {
@@ -321,7 +310,6 @@ ul.social-icons {
     opacity: 0;
   }
 }
-/*/Schedule*/
 
 /*Youtube Video*/
   .youtube {
@@ -341,7 +329,6 @@ ul.social-icons {
     justify-content: center;
   }
 }
-/*/Youtube Video*/
 
 /*Bottom Footer*/
 @media (min-width: 1425px) {
@@ -355,4 +342,3 @@ ul.social-icons {
     margin-top: 17.5px;
   }
 }
-/*/Bottom Footer*/
