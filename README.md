@@ -8,6 +8,6 @@ The header in the image above was created using bootstrap components such a nav 
 
 The header was made responsive in all viewport widths by using the bootstrap classes of navbar-expand-lg and navbar-collapse to allow bootstrap's stylesheet to expand the navbar in greater widths then bootstrap's large break-point.
 
-!['movie cards'](https://github.com/mbdev95/OpenClassrooms-Project-3-Brooklyn-Film-Festival/blob/master/img/Project-3-README-Images/Movie-Cards.PNG)
+!['movie cards'](https://github.com/mbdev95/OpenClassrooms-Project-3-Brooklyn-Film-Festival/blob/master/img/Project-3-README-Images/Movie-Cards-Component.PNG)
 
 Each movie was given a basic description in an organized way using bootstrap's card component. The cards were placed in responsive columns using the bootstrap grid with the columns going from 1 columns in small viewports, to 2 columns in medium viewports, and finally 3 columns in bootstrap's extra-large viewport width.
