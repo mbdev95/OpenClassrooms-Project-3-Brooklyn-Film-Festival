@@ -49,4 +49,4 @@ The next couple of sections before the footer include text pertaining to news up
 The bottom footer contains copyright information and social media links.  The footer layout is established using bootstrap's grid, bootstrap's flex classes and custom media queries.
 
 ## Conclusion
-In conclusion, this project allowed me to further understand css, bootstrap and html in a more complex and indepth way. Additionally, I learned the importance of responsive design, and how to do responsive design in an efficient way using bootstrap and also custom media queries where required.
+In conclusion, this project allowed me to further understand css, bootstrap and html in a more complex and in-depth way. Additionally, I learned the importance of responsive design, and how to do responsive design in an efficient way using bootstrap and also custom media queries where required.
