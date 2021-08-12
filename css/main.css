@@ -216,14 +216,7 @@ ul.social-icons {
 }
 
 /*Media Queries*/
-
-/*Header Image*/
-@media (max-width: px) {
-  .park {
-    margin-top: 50px;
-  }
-}
-  
+ 
 /*Location/Sponsors Image*/
 @media (max-width: 576px) {
   .location {
