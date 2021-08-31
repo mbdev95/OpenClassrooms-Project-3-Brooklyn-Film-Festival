@@ -6,25 +6,101 @@ body {
 	box-sizing: border-box;
 }
 
-.container1,
-.content {
-  margin: auto;
+/* Header */
+header h1 {
+  background: rgba(17, 73, 121, 0.75); 
+  color: rgba(255, 255, 255, 1);
 }
 
-.container1 {
-	width: 94.02985075%;
-	max-width: 1260px;
-	padding: 0 2.25em 4em;
+.container a.navbar-brand {
+  display: none;
 }
 
-.cube-container {
-	max-width: 200px;
-	text-align: center;
-	margin: 0 auto 4.5em;
+header div.jumbotron {
+  background-image: url('../img/img-card/Brooklyn-Bridge-Park-Jumbo-Image.jpg');
+  opacity: 0.8;
+}
+
+header div.jumbotron .container p {
+  color: black;
+  background: #309EFE;
+}
+
+/*Movie Card Anchor Tags*/
+.anchor {
+  display: block;
+  height: 65px; /*same height as header*/
+  margin-top: -65px; /*same height as header*/
+  visibility: hidden;
+}
+
+.anchor1 {
+  display: block;
+  height: 163px; /*same height as header*/
+  margin-top: -163px; /*same height as header*/
+  visibility: hidden;
+}
+
+.anchor2 {
+  display: block;
+  height: 60px; /*same height as header*/
+  margin-top: -60px; /*same height as header*/
+  visibility: hidden;
+}
+
+/* Youtube */
+div div.titanic-youtube {
+  display: flex;
+  justify-content: center;
+}
+
+.youtube {
+  width: 300px;
+  height: 168px;
+  margin-bottom: 25px;
+}
+
+/* Form */
+.row div form {
+  width: 100%;
+}
+
+/* Free Image */
+.free-img {
+  width: 300px;
+  height: 300px;
+}
+
+/* Schedule */
+.schedule1 .schedule p span:first-of-type,
+small span:first-of-type {
+  opacity: 0;
+}
+
+div .list-group-item p {
+  display: block!important;
+}
+
+.small-schedule {
+  margin-right: 30px;
+  display: flex;
+}
+
+/* Sponsors */
+.sponsors {
+  width: 95px;
+  height: 95px;
+  border: solid black 2px;
+  margin: 3px;
+}
+
+/* Location Image */
+.location {
+  width: 300px;
+  height: 223px;
 }
 
 /* Social Media Icons*/
-
 .fa {
   padding: 20px;
   font-size: 30px;
@@ -32,12 +108,11 @@ body {
   text-align: center;
   text-decoration: none;
 }
-
+                                                                                            
 .fa:hover {
   opacity: 0.7;
 }
 
-/* Font Imports */
 @import url(https://fonts.googleapis.com/css?family=Lato);
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 
@@ -155,171 +230,80 @@ ul.social-icons {
 .fa-google-plus:hover {
     background-color: #e25714;
 }
-/*/Social Media Icons*/
 
-/*Location Image*/
-.location {
-  width: 475px;
-  height: 356.25px;
-}
+/* Media Queries */
 
-/*Sponor Images*/
-.sponsors {
-  width: 165px;
-  height:165px;
-  border: solid black 2px;
-  margin: 3px;
-}
-
-/*/Form*/
-.film-label {
-  margin-bottom: 20px;
-}
-
-/*Free Admission Image*/
-.free-img {
-  width: 450px;
-  height: 450px;
-}
-
-/*Schedule*/
-.schedule {
-  width: 500px;
-}
-.header-schedule {
-  margin-left: 40px;
-}
-.small-schedule{
-  margin-right: 160px;
-}
-
-/*Anchor Tags*/
-.anchor {
-  display: block;
-  height: 65px; /*same height as header*/
-  margin-top: -65px; /*same height as header*/
-  visibility: hidden;
-}
-
-.anchor1 {
-  display: block;
-  height: 163px; /*same height as header*/
-  margin-top: -163px; /*same height as header*/
-  visibility: hidden;
-}
-
-.anchor2 {
-  display: block;
-  height: 60px; /*same height as header*/
-  margin-top: -60px; /*same height as header*/
-  visibility: hidden;
-}
-
-/*Media Queries*/
- 
-/*Location/Sponsors Image*/
-@media (max-width: 576px) {
-  .location {
-    width: 425px;
-    height: 318.75px;
-  }
-  .sponsors {
-    width: 133px;
-    height:133px;
+/* Navbar Tagline */
+@media(min-width: 480px) {
+  .container a.navbar-brand {
+    display: flex;
   }
 }
 
-@media (max-width: 450px) {
-  .location {
-    width: 350px;
-    height: 262.5px;
-  }
-  .sponsors {
-    width: 100px;
-    height: 100px;
+/* Youtube Video */ 
+@media (min-width: 576px) {
+  div div.titanic-youtube .youtube {
+    width: 504px;
+    height: 283.5px;
   }
 }
 
-@media (max-width: 1425px) {
-  .copy {
-    margin-top: 27px;
-  }
-}
-  @media (max-width: 1000px){
-  .copy {
-    margin-top: 0px;
-  }
-}
-
-/*Free Admission Image*/
-@media (max-width: 576px) {
-  .free-img {
-    width: 425px;
-    height: 425px;
-  }
-}
-
-@media (max-width: 450px) {
-  .free-img {
+/* Free Image */
+@media(min-width: 480px) {
+  div .free-img {
     width: 350px;
     height: 350px;
   }
 }
 
-/*Schedule*/
-@media (max-width: 1200px) {
-  .schedule1 {
-    margin: auto;
-  }
-  .header-schedule {
-    margin-left: 0px;
-  }
-  .small-schedule {
-    margin-right: 197px;
+@media (min-width: 576px) {
+  div .free-img {
+    width: 450px;
+    height: 450px;
   }
 }
 
-@media (max-width: 576px) {
-  .schedule {
-    width: 420px;
-  }
-  .small-schedule {
-    margin-right: 120px;
+/* Schedule */
+@media(min-width: 480px) {
+  div .list-group-item p {
+    display: flex!important;
   }
 }
 
-@media (max-width: 450px) {
-  .schedule {
-    width: 350px;
-  }
-   .small-schedule {
-    margin-right: 30px;
-    display: flex;
+/* Sponsor Images */
+@media(min-width: 480px) {
+  div img.sponsors {
+    width: 150px;
+    height: 150px;
   }
 }
 
-@media (max-width: 350px) {
-   .small-schedule {
-    opacity: 0;
+@media(min-width: 576px) {
+  div img.sponsors {
+    width: 165px;
+    height: 165px;
   }
 }
 
-/*Youtube Video*/
-  .youtube {
-    width: 500px;
-    height: 280px;
-    margin-bottom: 25px;
+/*Location Image */
+@media(min-width: 480px) {
+  .location {
+    width: 400px;
+    height: 300px;
   }
+}
 
-@media (max-width: 1200px) {
-  .youtube {
-    width: 408px;
-    height: 230px;
-    margin-bottom: 12px;
+@media (min-width: 576px) {
+  .location {
+    width: 475px;
+    height: 356.25px;
   }
-  .titanic-youtube {
-    display: flex;
-    justify-content: center;
+}
+
+/* Copyright Information */
+@media (min-width: 1000px) {
+  .copy {
+    margin-top: 27px;
   }
 }
 
@@ -335,3 +319,4 @@ ul.social-icons {
     margin-top: 17.5px;
   }
 }
+
