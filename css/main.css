@@ -17,7 +17,7 @@ header h1 {
 }
 
 header div.jumbotron {
-  background-image: url('../img/img-card/Brooklyn-Bridge-Park-Jumbo-Image.jpg');
+  background-image: url('img/img-card/Brooklyn-Bridge-Park-Jumbo-Image.jpg');
   opacity: 0.8;
 }
 
