@@ -1,7 +1,7 @@
 # Brooklyn Film Festival 
 
 ## Introduction
-In project 3 of my OpenClassrooms course I had to create a web page advertising a film festival in Brooklyn, NY.  The main goal of the project was to use bootstrap to establish the layout and main components (i.e. movie cards, buttons, ect) for the web page.  Also, more advanced css (i.e. transitions and transforms) were used to create a well designed and effective advertising page.  Furthermore, I used bootstrap and custom media queries to ensure all parts of the page were responsive in all view port sizes. Below I will go over the main parts of the web page, and discuss how I used bootstrap, css3 and responsive web design to successfully create a well designed and convincing film festival web page.
+In project 3 of my OpenClassrooms course I had to create a web page advertising a film festival in Brooklyn, NY.  The main goal of the project was to use bootstrap to establish the layout and main components (i.e. movie cards, buttons, ect) for the web page.  Also, more advanced css (i.e. transitions and transforms) were used to create a well designed and effective advertising page.  Furthermore, I used bootstrap and custom media queries to ensure all parts of the page were responsive to all devices using a Mobile-First approach. Below I will go over the main parts of the web page, and discuss how I used bootstrap, css3 and responsive Mobile-First web design to successfully create a well designed and convincing film festival web page.
 
 ### To See Project 3 online click the link below:
 https://mbdev95.github.io/OpenClassrooms-Project-3-Brooklyn-Film-Festival/
@@ -49,4 +49,4 @@ The next couple of sections before the footer include text pertaining to news up
 The bottom footer contains copyright information and social media links.  The footer layout is established using bootstrap's grid, bootstrap's flex classes and custom media queries.
 
 ## Conclusion
-In conclusion, this project allowed me to further understand css, bootstrap and html in a more complex and in-depth way. Additionally, I learned the importance of responsive design, and how to do responsive design in an efficient way using bootstrap and also custom media queries where required.
+In conclusion, this project allowed me to further understand css, bootstrap and html in a more complex and in-depth way. Additionally, I learned the importance of responsive design, and how to do responsive design using a Mobile-First approach in order to build from a one column layout to a multi-column layout.
