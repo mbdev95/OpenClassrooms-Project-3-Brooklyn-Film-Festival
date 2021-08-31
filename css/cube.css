@@ -1,7 +1,27 @@
+/* Cube Layout */
 .cube-container {
   perspective: 800px;
+  max-width: 200px;
+	text-align: center;
+	margin: 0 auto 4.5em;
 }
 
+.container1 {
+	width: 94.02985075%;
+	max-width: 1260px;
+	padding: 0 2.25em 4em;
+}
+
+.cube-container h1 {
+  color: #b4caf5;
+}
+
+.container1,
+.content {
+  margin: auto;
+}
+
+/* Cube Transitions and Transforms */
 .cube {
   transition: transform 3s ease-in-out;
   height: 200px;
@@ -13,6 +33,7 @@
   transform: rotateY(-270deg);
 }
 
+/* Cube Side Positioning */
 .front,
 .back,
 .left,
